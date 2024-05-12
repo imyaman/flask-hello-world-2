@@ -1,4 +1,3 @@
-uname -a
-ls /etc/
-which yum zypper apt-get
-pip install -r requirements.txt
+apk update  # py3-flask 
+apk add perl perl-mojolicious
+cpan -fi `cat cpanfile`
